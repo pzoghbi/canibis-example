@@ -1,0 +1,13 @@
+@extends('app')
+@section('nav')
+    @include('layouts.nav')
+@stop
+@section('content')
+    @include('pages.home')
+    @include('pages.products')
+    @include('pages.where-to-buy')
+    @include('pages.canibis-101-brief')
+    @include('pages.about-us')
+    @include('pages.contact')
+    @include('layouts.footer')
+@stop
